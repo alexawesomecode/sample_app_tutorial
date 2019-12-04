@@ -1,15 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Aass</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-
+    <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
   </head>
-
   <body>
-    <%= yield %>
-  </body>
+<%= yield%> 
+ </body>
 </html>
